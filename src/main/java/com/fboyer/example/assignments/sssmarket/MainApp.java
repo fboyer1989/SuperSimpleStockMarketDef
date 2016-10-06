@@ -13,8 +13,7 @@ public class MainApp
 {
 	private static Log log = LogFactory.getLog(MainApp.class);
 
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) {
         try {            
             // Run dividend and P/E Ratio routines
     		Map<String, Stock> db = loadDB();
